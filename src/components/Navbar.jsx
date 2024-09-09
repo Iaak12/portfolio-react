@@ -13,10 +13,10 @@ const Navbar = () => {
             <h1 className="mx-2 w-10 text-3xl">Ak</h1>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <FaLinkedin/>
-            <FaGithub/>
-            <FaInstagram/>
-            <FaSquareXTwitter/>
+            <a href="https://www.linkedin.com/in/ayaz-khan-11a971229/"><FaLinkedin/></a>
+           <a href="https://github.com/Iaak12"><FaGithub/></a> 
+           <a href="https://www.instagram.com/iayaz12/"> <FaInstagram/></a>
+           <a href="https://x.com/i/flow/login?redirect_after_login=%2FAyazKhan_12"> <FaSquareXTwitter/></a>
 
         </div>
   </nav>

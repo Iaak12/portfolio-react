@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import Projects from "../components/Projects";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -47,11 +48,11 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
   },
   {
-    title: "Task Management App",
+    title: "Netflix-GPt",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      " Netflix-GPT streaming app with React, leveraging Firebase for user authentication and Tailwind CSS for a responsive, modern UI. Enabled secure and dynamic user experiences with efficient frontend and backend integration.",
+    technologies: ["HTML", "CSS", "React","Tailwind", "Firebase"],
   },
   {
     title: "Portfolio Website",
@@ -67,10 +68,17 @@ export const PROJECTS = [
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
+  {
+    title: "Vetson Animal Healthcare",
+    image: project4,
+    description:
+      "A platform provide comprehensive veterinary services including preventive care, diagnostics, surgery and emergency treatment for pets and livestock.",
+    technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
+  },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Diwan Mohalla Hamam Patna city Bihar-800008",
+  phoneNo: "+917979850684",
+  email: "ayazkh1226@gmail.com",
 };
