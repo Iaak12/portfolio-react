@@ -16,7 +16,7 @@ const Navbar = () => {
             <a href="https://www.linkedin.com/in/ayaz-khan-11a971229/"><FaLinkedin/></a>
            <a href="https://github.com/Iaak12"><FaGithub/></a> 
            <a href="https://www.instagram.com/iayaz12/"> <FaInstagram/></a>
-           {/* <a href="https://x.com/i/flow/login?redirect_after_login=%2FAyazKhan_12"> <FaSquareXTwitter/></a> */}
+           <a href="https://x.com/i/flow/login?redirect_after_login=%2FAyazKhan_12"> <FaSquareXTwitter/></a>
 
         </div>
   </nav>
